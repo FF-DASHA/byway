@@ -1,9 +1,10 @@
 "use client";
+import HomePage from "./home/page";
 
 const Page = () => {
   return (
     <>
-     page
+     <HomePage/>
     </>
   );
 };
