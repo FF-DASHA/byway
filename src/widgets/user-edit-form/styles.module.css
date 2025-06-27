@@ -1,0 +1,45 @@
+.title {
+  margin-bottom: 6px;
+  font-family: "Fira Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0f172a;
+}
+
+.button {
+  width: 840px;
+}
+
+/* margin */
+
+.name,
+.language,
+.links,
+.description,
+.headline {
+  margin-bottom: 26px;
+}
+
+.link {
+  margin-bottom: 8px;
+  display: block;
+}
+
+.input,
+.name,
+.link {
+  width: 100%;
+}
+
+.icon {
+  position: relative;
+  right: 40px;
+}
+
+.languageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,67 @@
+.header {
+  width: 100%;
+  background-color: #212225;
+}
+
+.container {
+  width: 1280px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.svgIcon {
+  margin-right: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  margin-right: 12px;
+}
+
+.input {
+  width: 100%;
+  border-color: #212225;
+}
+
+.login,
+.signUp {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-family: "Fira Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 24px;
+  color: rgba(28, 32, 36, 0.92);
+}
+
+.login {
+  margin-right: 24px;
+  width: 97px;
+  background: rgba(11, 216, 182, 0.98);
+}
+
+.signUp {
+  width: 109px;
+  background-color: #9eb1ff;
+}

@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import image from "./ui/image.jpg";
 import { StaticImageData } from "next/dist/shared/lib/get-img-props";
 export interface CategoryState {
+  [x: string]: string;
   id: string;
   label: string;
   description: string;
